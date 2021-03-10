@@ -1,0 +1,52 @@
+.dialog {
+  position: absolute;
+  z-index: 100;
+  bottom: 28px;
+  right: 38px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #f4f4f4;
+}
+
+.control {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.control div:hover{
+  cursor: pointer;
+  color: #0076ffe6;
+}
+
+.control div {
+  padding: 0px 4px 0px 4px;
+  color: #0070f3;
+  font-size: 1.3rem;
+}
+
+.creator {
+  width: 100%;
+  display: flex;
+  padding-top: 7px;
+  justify-content: center;
+}
+
+.creator span {
+  padding: 0px 4px 0px 4px;
+  cursor: pointer;
+}
+
+.creator span a, .creator span {
+  color: #4e4e4e;
+  text-decoration: none;
+}
+
+.creator span:hover a, .creator span:hover {
+  color: #0076ffe6;
+}
